@@ -1,0 +1,23 @@
+1.  Node does not run JS code directly, but actually wraps the
+    code in a function of the format(exports, require, module, 
+    __filename, __dirname)
+2.  export is a reference to module.exports. Change made to export
+    will cause it no longer references module.exports.
+
+3.  Few concepts need to know:
+    3.1 Node Package Manager(NPM)
+    3.2 Asunchronous JavaScript
+        3.2.1 Callback
+        3.2.2 Promises
+        3.2.3 ?
+    3.3 CRUD Operations
+    3.4 Data Validation
+    3.5 Authentication and Authorization(JSON web token)
+    3.6 Handling and logging Errors
+    3.7 Unit and Integration Testing(Learned)
+    3.8 Test-driven Developement
+    3.9 Deployment
+
+4.  In order to use event to signal something happened, it is important to create a class that extends event emitter with that e
+5.  RESTful = Representational State Transfer
+6.  CRUD - Create, Read, Update, Delete

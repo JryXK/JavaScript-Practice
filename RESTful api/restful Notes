@@ -1,0 +1,16 @@
+HTTP Method:
+    Get-R
+    Post-C
+    Put-U 
+    Delete-D
+
+HTTP Request Format:
+    GET /api/[endpoint name]; JSON response
+    GET /api/[endpoint name]/1
+
+    PUT /api/[endpoint name]/1 
+        {name: ''}
+
+    POST /api/[endpoint name]
+
+        {name: ''}(primary key will be set by server?)
